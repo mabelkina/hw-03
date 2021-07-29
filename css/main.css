@@ -29,17 +29,18 @@ p {
   --accent-color: #2196f3;
 }
 
-/* header */
+.link {
+  margin: 0;
+  padding: 0;
+}
+
 .body {
   background-color: #ffffff;
   color: var(--title-text-color);
   font-family: Roboto, sans-serif;
 }
 
-.link {
-  margin: 0;
-  padding: 0;
-}
+/* header */
 
 .page-header .header {
   display: flex;
@@ -69,7 +70,6 @@ p {
 
 .nav-list {
   display: flex;
-  margin-right: 331px;
 }
 
 .nav-list-item:not(:last-child) {
@@ -98,6 +98,7 @@ p {
 
 .header-contacts {
   display: flex;
+  margin-left: auto;
 }
 
 .header-contacts .header-contacts-item:not(:last-child) {
@@ -312,14 +313,11 @@ p {
   color: white;
 }
 
-.footer-contacts {
+.footer-contacts .contact-item {
+  margin-top: 9px;
   font-style: normal;
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
-}
-
-.contact-list .contact-item {
-  margin-top: 9px;
 }
