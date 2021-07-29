@@ -41,13 +41,14 @@ p {
   padding: 0;
 }
 
-.header {
+.page-header .header {
   display: flex;
-  padding-top: 24px;
-  padding-bottom: 25px;
 }
 
 .logo {
+  margin-right: 93px;
+  padding-top: 24px;
+  padding-bottom: 25px;
   font-family: Raleway;
   font-weight: bold;
   font-size: 26px;
@@ -63,10 +64,19 @@ p {
 }
 
 .site-nav {
+  margin-right: 331px;
   display: flex;
 }
 
-.site-nav .link {
+.nav-list {
+  display: flex;
+}
+
+.nav-list-item:not(:last-child) {
+  margin-right: 50px;
+}
+
+.nav-list .link {
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
@@ -74,12 +84,12 @@ p {
   color: #212121;
 }
 
-.site-nav .link:hover,
-.site-nav .link:focus {
+.nav-list .link:hover,
+.nav-list .link:focus {
   color: var(--accent-color);
 }
 
-.site-nav .link.current {
+.nav-list .link.current {
   color: var(--accent-color);
 }
 
@@ -87,7 +97,13 @@ p {
   display: flex;
 }
 
+.header-contacts .header-contacts-item:not(:last-child) {
+  margin-right: 50px;
+  width: max-content;
+}
+
 .header-contacts .link {
+  margin-right: 50px;
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
