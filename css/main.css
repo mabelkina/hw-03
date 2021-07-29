@@ -19,6 +19,10 @@ a {
   text-decoration: none;
 }
 
+p {
+  margin: 0;
+}
+
 :root {
   --primary-text-color: #757575;
   --title-text-color: #212121;
@@ -37,6 +41,12 @@ a {
   padding: 0;
 }
 
+.header {
+  display: flex;
+  padding-top: 24px;
+  padding-bottom: 25px;
+}
+
 .logo {
   font-family: Raleway;
   font-weight: bold;
@@ -50,6 +60,10 @@ a {
 }
 .logo .studio-header {
   color: var(--title-text-color);
+}
+
+.site-nav {
+  display: flex;
 }
 
 .site-nav .link {
@@ -67,6 +81,10 @@ a {
 
 .site-nav .link.current {
   color: var(--accent-color);
+}
+
+.header-contacts {
+  display: flex;
 }
 
 .header-contacts .link {
@@ -277,4 +295,8 @@ a {
   line-height: 24px;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
+}
+
+.contact-list .contact-item {
+  margin-top: 9px;
 }
