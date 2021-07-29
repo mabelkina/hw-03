@@ -87,6 +87,7 @@ a {
 .conteiner {
   margin-left: auto;
   margin-right: auto;
+  padding: 0 15px;
   width: 1200px;
   outline: 2px solid red;
 }
@@ -254,7 +255,6 @@ a {
 .footer {
   padding-top: 60px;
   padding-bottom: 60px;
-  padding-left: 215px;
   background-color: #2f303a;
 }
 
@@ -263,6 +263,7 @@ a {
 }
 
 .footer-city {
+  margin-top: 20px;
   font-style: normal;
   font-size: 14px;
   line-height: 24px;
