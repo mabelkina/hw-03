@@ -64,12 +64,12 @@ p {
 }
 
 .site-nav {
-  margin-right: 331px;
   display: flex;
 }
 
 .nav-list {
   display: flex;
+  margin-right: 331px;
 }
 
 .nav-list-item:not(:last-child) {
@@ -77,11 +77,14 @@ p {
 }
 
 .nav-list .link {
+  display: block;
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
   color: #212121;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .nav-list .link:hover,
@@ -98,17 +101,22 @@ p {
 }
 
 .header-contacts .header-contacts-item:not(:last-child) {
-  margin-right: 50px;
   width: max-content;
 }
 
-.header-contacts .link {
+.header-contacts-item:not(:last-child) {
   margin-right: 50px;
+}
+
+.header-contacts .link {
+  display: block;
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
   color: #757575;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .header-contacts .link:hover,
@@ -123,7 +131,6 @@ p {
   margin-right: auto;
   padding: 0 15px;
   width: 1200px;
-  outline: 2px solid red;
 }
 
 .hero {
